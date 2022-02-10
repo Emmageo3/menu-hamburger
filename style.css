@@ -22,6 +22,10 @@ button div {
     margin: 6px 0;
 }
 
+button.active{
+    transform: translateX(-100px);
+}
+
 nav{
     background-color: pink;
     position: fixed;

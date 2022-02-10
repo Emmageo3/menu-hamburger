@@ -2,5 +2,6 @@ const btn = document.getElementById('btn')
 const nav = document.getElementById('nav')
 
 btn.addEventListener('click', function(){
-    nav.setAttribute('class', 'active')
+    nav.classList.toggle('active')
+    btn.classList.toggle('active')
 })
