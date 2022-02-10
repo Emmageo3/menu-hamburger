@@ -13,6 +13,7 @@ button{
     position: fixed;
     top: 20px;
     right: 20px;
+    transition: transform .3s ease-in-out;
 }
 
 button div {
@@ -34,6 +35,7 @@ nav{
     height: 100vh;
     padding: 2rem;
     transform: translateX(100%);
+    transition: transform .3s ease-in-out;
 }
 
 nav.active{
